@@ -9,7 +9,7 @@
 - **Python / Django** — бекенд, авторизація, логіка опитувань
 - **HTML5 / CSS3 / JavaScript** — фронтенд
 - **SQLite / PostgreSQL** — база даних
-- **Chart.js / Matplotlib** — візуалізація результатів
+- **Chart.js** — візуалізація результатів
 - **Git / GitHub** — контроль версій
 
 ---
