@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Успішна реєстрація</title>
+  <link rel="stylesheet" href="{% static 'css/success.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">
+      <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+      <span>MediCheck</span>
+    </div>
+    <nav class="nav-links">
+      <a href="{% url 'index' %}">Головна</a>
+      <a href="{% url 'about' %}">Про нас</a>
+    </nav>
+  </header>
+
+  <div class="center-container">
+    <div class="success-wrapper">
+      <h1>Вас успішно зареєстровано!</h1>
+      <p>Тепер ви можете увійти до системи, використовуючи свої облікові дані.</p>
+      <a class="btn" href="{% url 'login' %}">Перейти до входу</a>
+    </div>
+  </div>
+</body>
+</html>

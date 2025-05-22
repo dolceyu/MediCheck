@@ -1,0 +1,39 @@
+2025-05-15 13:30:08,482 | INFO | app_logger | Спроба входу: staromudpavlo@gmail.com
+2025-05-15 13:30:09,645 | INFO | app_logger | Успішний вхід: staromudpavlo@gmail.com
+2025-05-15 13:30:09,690 | INFO | app_logger | Лікар staromudpavlo@gmail.com увійшов у систему
+2025-05-15 13:35:49,123 | INFO | app_logger | Успішна реєстрація лікаря: shevchenko@gmail.com
+2025-05-15 13:41:30,569 | INFO | app_logger | Спроба входу: shevchenko@gmail.com
+2025-05-15 13:41:31,770 | INFO | app_logger | Успішний вхід: shevchenko@gmail.com
+2025-05-15 13:41:31,818 | INFO | app_logger | Лікар shevchenko@gmail.com увійшов у систему
+2025-05-15 13:42:04,864 | INFO | app_logger | Користувач shevchenko@gmail.com змінив пароль
+2025-05-15 13:49:18,256 | INFO | app_logger | Спроба входу: shevchenko@gmail.com
+2025-05-15 13:49:19,387 | INFO | app_logger | Успішний вхід: shevchenko@gmail.com
+2025-05-15 13:49:19,439 | INFO | app_logger | Лікар shevchenko@gmail.com увійшов у систему
+2025-05-15 13:49:54,772 | INFO | app_logger | Користувач shevchenko@gmail.com змінив пароль і вийшов із системи
+2025-05-15 13:51:42,048 | INFO | app_logger | Спроба входу: shevchenko@gmail.com
+2025-05-15 13:51:43,177 | INFO | app_logger | Успішний вхід: shevchenko@gmail.com
+2025-05-15 13:51:43,197 | INFO | app_logger | Лікар shevchenko@gmail.com увійшов у систему
+2025-05-15 13:52:05,730 | INFO | app_logger | Користувач shevchenko@gmail.com змінив пароль і вийшов із системи
+2025-05-15 13:52:07,639 | INFO | app_logger | Користувач shevchenko@gmail.com змінив пароль і вийшов із системи
+2025-05-15 13:56:05,812 | INFO | app_logger | Спроба входу: shevchenko@gmail.com
+2025-05-15 13:56:06,992 | INFO | app_logger | Успішний вхід: shevchenko@gmail.com
+2025-05-15 13:56:07,048 | INFO | app_logger | Лікар shevchenko@gmail.com увійшов у систему
+2025-05-15 13:56:29,923 | INFO | app_logger | Користувач shevchenko@gmail.com змінив пароль і вийшов із системи
+2025-05-15 20:25:25,404 | INFO | app_logger | Успішна реєстрація пацієнта: dianka@gmail.com
+2025-05-15 20:25:39,441 | INFO | app_logger | Спроба входу: dianka@gmail.com
+2025-05-15 20:25:40,564 | INFO | app_logger | Успішний вхід: dianka@gmail.com
+2025-05-15 20:25:40,603 | INFO | app_logger | Пацієнт dianka@gmail.com увійшов у систему
+2025-05-15 20:26:12,880 | INFO | app_logger | Пацієнт dianka@gmail.com надіслав анкету для сервісу: Medics
+2025-05-15 20:27:54,291 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
+2025-05-15 20:28:05,036 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-15 20:28:09,102 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-15 20:28:39,055 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
+2025-05-16 12:14:55,052 | INFO | app_logger | Спроба входу: birban@gmail.com
+2025-05-16 12:14:55,681 | INFO | app_logger | Успішний вхід: birban@gmail.com
+2025-05-16 12:14:55,699 | INFO | app_logger | Пацієнт birban@gmail.com увійшов у систему
+2025-05-16 13:12:45,386 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
+2025-05-16 14:41:12,806 | INFO | app_logger | Спроба входу: allapela@gmail.com
+2025-05-16 14:41:13,369 | INFO | app_logger | Успішний вхід: allapela@gmail.com
+2025-05-16 14:41:13,379 | INFO | app_logger | Лікар allapela@gmail.com увійшов у систему
+2025-05-16 21:59:54,347 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
+2025-05-16 21:59:59,665 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?

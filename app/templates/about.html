@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Про нас — MediCheck</title>
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+        <span>MediCheck</span>
+      </div>
+      <nav class="nav-links">
+        <a href="{% url 'index' %}">Головна</a>
+        <a href="#" class="active">Про нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="about-content">
+    <h1>Про нас</h1>
+    <p><strong>MediCheck</strong> — це незалежна онлайн-платформа для оцінювання якості медичних сервісів в Україні.</p>
+
+    <section>
+      <h2>Наша мета</h2>
+      <ul>
+        <li>Підвищити прозорість у сфері електронної медицини</li>
+        <li>Надати голос кожному користувачу</li>
+        <li>Формувати достовірні рейтинги на основі відгуків та покращувати роботу медичних сервсів</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Для кого це?</h2>
+      <p><strong>Пацієнти</strong> можуть ділитися досвідом користування онлайн-сервісами (Helsi, Health24, Medics тощо).</p>
+      <p><strong>Лікарі</strong> можуть висловлювати думки з професійної точки зору.</p>
+      <p><strong>Сервіси</strong> можуть отримувати реальні оцінки для покращення.</p>
+    </section>
+
+    <section>
+      <h2>Чому варто довіряти?</h2>
+      <ul>
+        <li>Анонімність та безпека</li>
+        <li>Перевірка ролі користувача</li>
+        <li>Простий, інтуїтивно зрозумілий інтерфейс</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

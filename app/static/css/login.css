@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f6ef;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative; 
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 100%;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  
+  .login-bg {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+  }
+  
+  .login-box h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background-color: #eee;
+  }
+  
+  .messages {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.messages li {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.messages li.success {
+  background-color: #e0f8e9;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.messages li.error {
+  background-color: #fbeaea;
+  color: #d32f2f;
+  border: 1px solid #f44336;
+}

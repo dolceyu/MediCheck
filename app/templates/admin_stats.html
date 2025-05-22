@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика опитувань</title>
+    <link rel="stylesheet" href="{% static 'css/admin_stats.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+                <span>MediCheck</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="stats-content">
+        <h1>Статистика оцінок від користувачів сервісу MediCheck</h1>
+    
+        <form method="post" class="stats-form">
+            {% csrf_token %}
+            <div class="form-group">
+                <label>Сервіс</label>
+                <select name="service" id="service-select" required>
+                    {% for s in services %}
+                    <option value="{{ s.name }}" {% if selected_service == s.name %}selected{% endif %}>{{ s.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label>Користувач</label>
+                <select name="role" id="role-select" required>
+                    {% for role in roles %}
+                    <option value="{{ role }}" {% if selected_role == role %}selected{% endif %}>{{ role }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+    
+            <div class="form-group wide">
+                <label>Запитання</label>
+                <select name="question" id="question-select" required>
+                    {% for q in questions %}
+                    <option value="{{ q.text }}" {% if selected_question == q.text %}selected{% endif %}>{{ q.text }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label>Діаграма</label>
+                <select name="chart_type" required>
+                    <option value="bar" {% if selected_chart == 'bar' %}selected{% endif %}>Стовпчикова</option>
+                    <option value="pie" {% if selected_chart == 'pie' %}selected{% endif %}>Кругова</option>
+                </select>
+            </div>
+    
+            <div class="form-group small">
+                <label>&nbsp;</label>
+                <button type="submit">Показати</button>
+            </div>
+        </form>
+    
+        {% if chart_data %}
+            <h2>Діаграма результатів</h2>
+            <canvas id="surveyChart" width="400" height="200"></canvas>
+        {% else %}
+            <p>Виберіть фільтри і натисніть "Показати", щоб побачити статистику.</p>
+        {% endif %}
+
+        {% if comments %}
+            <section class="comments-section">
+                <h2>Коментарі користувачів</h2>
+                <ul class="comments-list">
+                    {% for comment in comments %}
+                    <li class="comment-item">
+                        <div class="comment-meta">
+                            <strong>{{ comment.user.email }}</strong> — {{ comment.submitted_at|date:"d.m.Y H:i" }}
+                        </div>
+                        <p class="comment-text">{{ comment.text }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% else %}
+            {% if chart_data %}
+                <p class="no-comments">Наразі немає коментарів для цього сервісу.</p>
+            {% endif %}
+        {% endif %}
+    </main>    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    {% if chart_data %}
+    <script>
+        const ctx = document.getElementById('surveyChart').getContext('2d');
+        const chartType = "{{ selected_chart }}";
+        const data = {
+            labels: ['1', '2', '3', '4', '5'],
+            datasets: [{
+                label: 'Кількість відповідей',
+                data: [
+                    {{ chart_data.1|default:0 }},
+                    {{ chart_data.2|default:0 }},
+                    {{ chart_data.3|default:0 }},
+                    {{ chart_data.4|default:0 }},
+                    {{ chart_data.5|default:0 }}
+                ],
+                backgroundColor: [
+                    '#4caf50',
+                    '#2196f3',
+                    '#ffeb3b',
+                    '#ff9800',
+                    '#f44336'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        const options = {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: chartType === 'pie'
+                }
+            },
+            scales: chartType === 'bar' ? {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            } : {}
+        };
+
+        new Chart(ctx, {
+            type: chartType,
+            data: data,
+            options: options
+        });
+    </script>
+    {% endif %}
+
+    
+    <script>
+    document.getElementById('role-select').addEventListener('change', function() {
+        const role = this.value;
+        fetch(`/get-questions/?role=${role}`)
+            .then(response => response.json())
+            .then(data => {
+                const questionSelect = document.getElementById('question-select');
+                questionSelect.innerHTML = '';
+                data.questions.forEach(q => {
+                    const option = document.createElement('option');
+                    option.value = q.text;
+                    option.textContent = q.text;
+                    questionSelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Помилка завантаження питань:', error));
+    });
+    </script>
+</body>
+</html>

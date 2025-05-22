@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* ===== Шапка ===== */
+  .main-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f9f6ef;
+    height: 80px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    margin-top: -25px; /* ⬅️ Це трохи підніме елементи вгору */
+}
+
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+.support-content {
+  max-width: 700px;
+  margin: 80px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.support-content h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.support-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.support-content li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}

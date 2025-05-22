@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Оберіть тип користувача</title>
+  <link rel="stylesheet" href="{% static 'css/choose.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+        <span>MediCheck</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="{% url 'index' %}">Головна</a>
+        <a href="{% url 'about' %}">Про нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="choose-bg">
+    <div class="choose-overlay">
+      <div class="choose-container">
+        <h1>Оберіть тип користувача</h1>
+        <div class="choice-buttons">
+          <a href="{% url 'register_doctor' %}" class="choice-btn">Лікар</a>
+          <a href="{% url 'register_patient' %}" class="choice-btn">Пацієнт</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    color: #111;
+  }
+  
+  .main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f6ef;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative; /* Додано */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 100%;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #003300;
+  font-weight: 500;
+}
+
+.ratings-content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Стилізація форми вибору */
+form {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+label[for="service"] {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+select#service {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+select#service:hover {
+  border-color: #888;
+}
+
+select#service:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(100, 100, 100, 0.3);
+}

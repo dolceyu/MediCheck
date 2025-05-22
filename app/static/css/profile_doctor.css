@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* ===== Шапка ===== */
+  .main-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f9f6ef;
+    height: 80px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    margin-top: -25px; /* ⬅️ Це трохи підніме елементи вгору */
+}
+
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+
+.profile-wrapper {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.profile-left {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* ⬅️ важливо */
+    background-color: #fdfcf9;
+    margin-top: 42px;  /* ⬅️ Це підніме блок вище */
+}
+
+
+.profile-left h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.field {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.edit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    background-color: #fdfcf9;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+    width: 160px;           /* <--- ДОДАЙ ЦЕ */
+    max-width: 100%;       /* опціонально */
+}
+
+
+.edit-btn:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+
+
+.profile-right {
+    flex: 1;
+    background-color: #e7e1d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

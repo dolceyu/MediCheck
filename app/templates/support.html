@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Служба підтримки</title>
+  <link rel="stylesheet" href="{% static 'css/support.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+        <span>MediCheck</span>
+      </div>
+      <nav class="nav-links">
+        <a href="{% url 'index' %}">Головна</a>
+        <a href="{% url 'about' %}">Про нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="support-content">
+    <h1>Служба підтримки</h1>
+    <p>Якщо у вас виникли питання або проблеми з використанням сервісу <strong>MediCheck</strong>, будь ласка, зв’яжіться з нами:</p>
+    <ul>
+      <li>📧 Email: <a href="mailto:support@medicheck.com">support@medicheck.com</a></li>
+      <li>📞 Телефон: +38 (044) 123-45-67</li>
+      <li>💬 Чат підтримки: доступний у робочі дні з 9:00 до 18:00</li>
+    </ul>
+    <p>Ми завжди готові допомогти вам!</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Дякуємо за вашу оцінку</title>
+    <link rel="stylesheet" href="{% static 'css/survey_thank_you.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+                <span>MediCheck</span>
+            </div>
+            <nav class="nav-links">
+                <a href="{% url 'index' %}">Головна</a>
+                <a href="{% url 'about' %}">Про нас</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="thank-you-content">
+        <h1>Дякуємо за вашу оцінку!</h1>
+        <p>Ваша думка допоможе нам покращити якість медичних сервісів.</p>
+        {% if role == "doctor" %}
+            <a href="{% url 'doctor_dashboard' %}" class="back-button">Повернутися до дашборду</a>
+        {% else %}
+            <a href="{% url 'patient_dashboard' %}" class="back-button">Повернутися до дашборду</a>
+        {% endif %}
+    </main>
+</body>
+</html>

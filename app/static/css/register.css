@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* ===== Шапка ===== */
+  .main-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #f9f6ef;
+    height: 80px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  
+  /* ===== Контейнер ===== */
+  .register-wrapper {
+    display: flex;
+    height: calc(100vh - 80px);
+  }
+  
+  .register-form {
+    flex: 1;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f6ef;
+  }
+  
+  .register-form h1 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #000;
+  }
+  
+  .gender {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+  }
+  
+  .password-note {
+    font-size: 12px;
+    color: #444;
+  }
+  
+  .agree-box {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 6px;
+  }
+  
+  /* ===== Зображення ===== */
+  .register-image {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .register-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .register-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+  }
+  
+  .register-choice h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .choice-buttons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .choice-btn {
+    padding: 14px 32px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .choice-btn:hover {
+    background-color: #eee;
+  }
+  
+  

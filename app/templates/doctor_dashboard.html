@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Сторінка доступу лікаря</title>
+  <link rel="stylesheet" href="{% static 'css/doctor_dashboard.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+        <span>MediCheck</span>
+      </div>
+      <nav class="nav-links">
+        <a href="{% url 'index' %}">Головна</a>
+        <a href="{% url 'about' %}">Про нас</a>
+      </nav>
+      <div class="user-info">
+        {{ doctor.last_name }} {{ doctor.first_name }} {{ doctor.middle_name }} - лікар
+        <span class="menu-icon">☰</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1>Оберіть медичний сервіс, який хочете оцінити</h1>
+    <div class="service-buttons">
+        <a href="{% url 'survey_doctor' service_slug='helsi' %}"><button>Helsi</button></a>
+        <a href="{% url 'survey_doctor' service_slug='health24' %}"><button>Health24</button></a>
+        <a href="{% url 'survey_doctor' service_slug='medics' %}"><button>Medics</button></a>
+        <a href="{% url 'survey_doctor' service_slug='docua' %}"><button>Doc.ua</button></a>
+    </div>
+  </main>
+
+  <div class="burger-panel" id="burgerPanel">
+    <div class="burger-header">
+      <strong>{{ doctor.last_name }} {{ doctor.first_name }} {{ doctor.middle_name }}</strong>
+      <div>Лікар</div>
+    </div>
+    <div class="burger-buttons">
+      <a href="{% url 'profile_doctor' %}"><button>Мій профіль</button></a>
+      <a href="{% url 'doctor_ratings' %}"><button class="burger-btn">Мої оцінки</button></a>
+      <a href="{% url 'support' %}"><button>Служба підтримки</button></a>
+    </div>
+    <div class="burger-footer">
+      <form method="post" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit" class="burger-btn">Вийти</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const menuIcon = document.querySelector(".menu-icon");
+    const burgerPanel = document.getElementById("burgerPanel");
+
+    if (menuIcon && burgerPanel) {
+      menuIcon.addEventListener("click", () => {
+        burgerPanel.classList.toggle("open");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!burgerPanel.contains(e.target) && !menuIcon.contains(e.target)) {
+          burgerPanel.classList.remove("open");
+        }
+      });
+    }
+  </script>
+</body>
+</html>

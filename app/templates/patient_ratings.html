@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Мої оцінки — Пацієнт</title>
+  <link rel="stylesheet" href="{% static 'css/ratings.css' %}">
+  <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <img src="{% static 'img/favicon.png' %}" alt="Логотип">
+        <span>MediCheck</span>
+      </div>
+      <nav class="nav-links">
+        <a href="{% url 'index' %}">Головна</a>
+        <a href="{% url 'about' %}">Про нас</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ratings-content">
+    <h1>Мої оцінки</h1>
+
+    <form method="get">
+      <label for="service">Оберіть сервіс:</label>
+      <select name="service" id="service" onchange="this.form.submit()">
+        <option value="">Усі сервіси</option>
+        {% for s in services %}
+          <option value="{{ s }}" {% if s == selected_service %}selected{% endif %}>{{ s }}</option>
+        {% endfor %}
+      </select>
+    </form>
+
+    {% if ratings %}
+    <table>
+      <thead>
+        <tr>
+          <th>Сервіс</th>
+          <th>Питання</th>
+          <th>Оцінка</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in ratings %}
+        <tr>
+          <td>{{ r.service.name }}</td>
+          <td>{{ r.question.text }}</td>
+          <td>{{ r.rating }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p>Оцінок для вибраного сервісу не знайдено.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #111;
+  }
+  
+  .header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f6ef;
+    border-bottom: 1px solid #ccc;
+    padding: 0 60px;
+    box-sizing: border-box;
+  }
+  
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .nav a,
+  .auth a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+  }
+  
+  .nav a.active {
+    border-bottom: 2px solid #000;
+  }
+  
+  .auth a {
+    padding: 4px 10px;
+    border: 1px solid #111;
+    border-radius: 20px;
+  }
+  
+  .hero {
+    position: relative;
+    background-image: url('/static/img/hero.jpg'); /* ми додамо цю картинку нижче */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .description {
+    padding: 40px;
+    text-align: center;
+    background: #f9f6ef;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  body {
+    background-color: #f9f6ef;
+  }
+  
+  h1 {
+    color: black;
+  }
+  

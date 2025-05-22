@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    color: #111;
+  }
+  
+  .main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f6ef;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative; /* Додано */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 100%;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .user-info {
+    position: absolute;
+    right: 60px;
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .survey-content {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  
+  .survey-content h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .question label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    background-color: #111;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #111;
+  }
+  
+.burger-panel {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100%;
+  background-color: #e7dfd3;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 999;
+}
+
+.burger-panel.open {
+  right: 0;
+}
+
+.menu-icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+.burger-panel {
+  position: fixed;
+  top: 0;
+  right: -300px; /* ховаємо */
+  width: 300px;
+  height: 100%;
+  background-color: #d7d0c4;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger-panel.open {
+  right: 0;
+}
+
+.burger-header {
+  font-size: 14px;
+  color: #111;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.burger-buttons button,
+.burger-footer button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.burger-buttons button:hover,
+.burger-footer button:hover {
+  background-color: #ddd;
+}
+
+.burger-footer button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-weight: normal;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.burger-footer button:hover {
+  background-color: #ddd;
+}
+
+textarea {
+  width: 95%;
+  display: block;
+  margin: 0 auto 20px auto; /* нижній відступ = 20px */
+}

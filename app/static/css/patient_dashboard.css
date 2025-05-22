@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcf9;
+    color: #111;
+  }
+  
+  .main-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f6ef;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative; /* Додано */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 100%;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .user-info {
+    position: absolute;
+    right: 60px;
+    font-size: 16px;
+    color: #003300;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .menu-icon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px; /* піднімає вміст трохи вище */
+  }
+  
+  .main-content h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .service-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .burger-panel {
+  position: fixed;
+  top: 0;
+  right: -300px; /* ховаємо */
+  width: 300px;
+  height: 100%;
+  background-color: #d7d0c4;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger-panel.open {
+  right: 0;
+}
+
+.burger-header {
+  font-size: 14px;
+  color: #111;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.burger-buttons button,
+.burger-footer button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.burger-buttons button:hover,
+.burger-footer button:hover {
+  background-color: #ddd;
+}
+
+.survey-btn {
+  display: inline-block;
+  width: 195px; /* було 220px — зменшено ширину */
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500; /* зробили текст жирнішим */
+  background-color: #e8e6e1;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-buttons a:hover,
+.service-buttons button:hover {
+  background-color: #dddcd8;
+}
+
+
+

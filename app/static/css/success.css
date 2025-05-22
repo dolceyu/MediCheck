@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfcf9;
+  min-height: 100vh;
+}
+
+/* ===== Шапка ===== */
+.main-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 60px; /* компактніше */
+  background-color: #f9f6ef;
+  height: 80px; /* зменшено */
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 30px;
+  margin-top: -2px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* ===== Центрований блок з фоном ===== */
+.center-container {
+  height: calc(100vh - 60px); /* шапка 60px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/success_bg.jpg"); /* 🔁 заміни на своє зображення */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ===== Вміст ===== */
+.success-wrapper {
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #111;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #111;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: grey;
+}
