@@ -44,7 +44,7 @@
                 <label>Запитання</label>
                 <select name="question" id="question-select" required>
                     {% for q in questions %}
-                    <option value="{{ q.text }}" {% if selected_question == q.text %}selected{% endif %}>{{ q.text }}</option>
+                    <option value="{{ q.id }}" {% if selected_question == q.id %}selected{% endif %}>{{ q.text }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -155,7 +155,7 @@
                 questionSelect.innerHTML = '';
                 data.questions.forEach(q => {
                     const option = document.createElement('option');
-                    option.value = q.text;
+                    option.value = q.id;
                     option.textContent = q.text;
                     questionSelect.appendChild(option);
                 });

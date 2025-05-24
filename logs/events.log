@@ -37,3 +37,61 @@
 2025-05-16 14:41:13,379 | INFO | app_logger | Лікар allapela@gmail.com увійшов у систему
 2025-05-16 21:59:54,347 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
 2025-05-16 21:59:59,665 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-24 18:12:06,481 | INFO | app_logger | Успішна реєстрація лікаря: beyvira@gmail.com
+2025-05-24 18:12:20,472 | INFO | app_logger | Спроба входу: beyvira@gmail.com
+2025-05-24 18:12:21,056 | INFO | app_logger | Успішний вхід: beyvira@gmail.com
+2025-05-24 18:12:21,070 | INFO | app_logger | Лікар beyvira@gmail.com увійшов у систему
+2025-05-24 18:13:13,299 | INFO | app_logger | Лікар beyvira@gmail.com надіслав анкету для сервісу: Helsi
+2025-05-24 18:15:22,777 | INFO | app_logger | Лікар beyvira@gmail.com надіслав анкету для сервісу: Health24
+2025-05-24 18:25:06,925 | INFO | app_logger | Успішна реєстрація лікаря: petrenko_ivan@gmail.com
+2025-05-24 18:25:17,441 | INFO | app_logger | Спроба входу: petrenko_ivan@gmail.com
+2025-05-24 18:25:17,987 | INFO | app_logger | Успішний вхід: petrenko_ivan@gmail.com
+2025-05-24 18:25:17,997 | INFO | app_logger | Лікар petrenko_ivan@gmail.com увійшов у систему
+2025-05-24 18:25:45,851 | INFO | app_logger | Лікар petrenko_ivan@gmail.com надіслав анкету для сервісу: Helsi
+2025-05-24 18:44:21,825 | INFO | app_logger | Успішна реєстрація лікаря: kushnirsofia@gmail.com
+2025-05-24 18:51:31,275 | INFO | app_logger | Спроба входу: kushnirsofia@gmail.com
+2025-05-24 18:51:31,868 | INFO | app_logger | Успішний вхід: kushnirsofia@gmail.com
+2025-05-24 18:51:31,878 | INFO | app_logger | Лікар kushnirsofia@gmail.com увійшов у систему
+2025-05-24 18:54:24,238 | INFO | app_logger | Лікар kushnirsofia@gmail.com надіслав анкету для сервісу: Helsi
+2025-05-24 18:55:30,057 | INFO | app_logger | Спроба входу: kushnirsofia@gmail.com
+2025-05-24 18:55:30,564 | INFO | app_logger | Успішний вхід: kushnirsofia@gmail.com
+2025-05-24 18:55:30,574 | INFO | app_logger | Лікар kushnirsofia@gmail.com увійшов у систему
+2025-05-24 19:07:34,391 | INFO | app_logger | Успішна реєстрація пацієнта: maleniukandriy@gmail.com
+2025-05-24 19:08:33,817 | INFO | app_logger | Спроба входу: maleniukandriy@gmail.com
+2025-05-24 19:08:34,398 | INFO | app_logger | Успішний вхід: maleniukandriy@gmail.com
+2025-05-24 19:08:34,408 | INFO | app_logger | Пацієнт maleniukandriy@gmail.com увійшов у систему
+2025-05-24 19:10:44,547 | INFO | app_logger | Пацієнт maleniukandriy@gmail.com надіслав анкету для сервісу: Health24
+2025-05-24 19:23:43,494 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: None, питання: None
+2025-05-24 19:23:49,738 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-24 19:24:21,783 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки зручно було знаходити інформацію про пацієнтів на сервісі?
+2025-05-24 19:24:27,593 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки часто виникали збої або помилки під час користування?
+2025-05-24 19:24:29,291 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки часто виникали збої або помилки під час користування?
+2025-05-24 19:24:33,188 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?
+2025-05-24 19:24:38,103 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Health24, питання: Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?
+2025-05-24 19:24:47,032 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки зрозумілим був інтерфейс сервісу?
+2025-05-24 19:25:08,404 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-24 19:25:12,551 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?
+2025-05-24 19:27:16,676 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки зручно було знаходити інформацію про пацієнтів на сервісі?
+2025-05-24 19:27:24,252 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки зручно вам були доступні потрібні медичні послуги через сервіс?
+2025-05-24 19:27:29,181 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?
+2025-05-24 19:27:32,630 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання: Наскільки легко було знайти потрібну інформацію або функцію на сайті?
+2025-05-24 19:36:50,341 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання ID: 26
+2025-05-24 19:37:00,553 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Helsi, питання ID: 8
+2025-05-24 19:37:06,781 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Health24, питання ID: 8
+2025-05-24 19:37:11,263 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Health24, питання ID: 26
+2025-05-24 19:37:18,209 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 19:37:39,953 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 19:38:35,403 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 19:39:40,379 | INFO | app_logger | Спроба входу: omelolena@gmail.com
+2025-05-24 19:39:40,957 | WARNING | app_logger | Невдала спроба входу (невірний пароль): omelolena@gmail.com
+2025-05-24 19:39:50,636 | INFO | app_logger | Спроба входу: omelolena@gmail.com
+2025-05-24 19:39:51,218 | INFO | app_logger | Успішний вхід: omelolena@gmail.com
+2025-05-24 19:39:51,227 | INFO | app_logger | Лікар omelolena@gmail.com увійшов у систему
+2025-05-24 19:40:58,922 | INFO | app_logger | Лікар omelolena@gmail.com надіслав анкету для сервісу: Medics
+2025-05-24 19:41:28,089 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 19:42:59,467 | INFO | app_logger | Спроба входу: allapela@gmail.com
+2025-05-24 19:43:00,058 | INFO | app_logger | Успішний вхід: allapela@gmail.com
+2025-05-24 19:43:00,071 | INFO | app_logger | Лікар allapela@gmail.com увійшов у систему
+2025-05-24 19:43:34,744 | INFO | app_logger | Лікар allapela@gmail.com надіслав анкету для сервісу: Medics
+2025-05-24 19:44:03,194 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 19:45:07,203 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26

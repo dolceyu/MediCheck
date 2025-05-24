@@ -269,49 +269,55 @@ from .models import MedicalService, SurveyQuestion, SurveyAnswer
 from django.db.models import Q 
 from django.contrib.admin.views.decorators import staff_member_required
 
+from django.contrib.admin.views.decorators import staff_member_required
+from django.shortcuts import render
+from .models import MedicalService, SurveyQuestion, SurveyAnswer, SurveyComment
+import logging
+
+logger = logging.getLogger(__name__)
+
 @staff_member_required
 def admin_stats(request):
     services = MedicalService.objects.all()
     roles = ['patient', 'doctor']
     questions = SurveyQuestion.objects.all()
     chart_data = None
-    comments = []  
+    comments = []
 
     selected_service = None
     selected_role = None
-    selected_question = None
+    selected_question_id = None
     selected_chart = None
 
     if request.method == 'POST':
         selected_service = request.POST.get('service')
         selected_role = request.POST.get('role')
-        selected_question = request.POST.get('question')
+        selected_question_id = request.POST.get('question')  # <-- id з select
         selected_chart = request.POST.get('chart_type')
 
         service = MedicalService.objects.filter(name=selected_service).first()
-        question = SurveyQuestion.objects.filter(text=selected_question, for_role=selected_role).first()
+        question = SurveyQuestion.objects.filter(id=selected_question_id, for_role=selected_role).first()
 
         if service and question:
-            
             answers = SurveyAnswer.objects.filter(service=service, question=question)
             chart_data = {i: answers.filter(rating=i).count() for i in range(1, 6)}
 
-            
             comments = SurveyComment.objects.filter(
                 service=service,
-                user__isnull=False  
-            ).order_by('-submitted_at')  
+                user__isnull=False
+            ).order_by('-submitted_at')
 
-    logger.info(f'Адміністратор {request.user.email} переглянув статистику для сервісу: {selected_service}, питання: {selected_question}')
+        logger.info(f'Адміністратор {request.user.email} переглянув статистику для сервісу: {selected_service}, питання ID: {selected_question_id}')
+
     return render(request, 'admin_stats.html', {
         'services': services,
         'roles': roles,
         'questions': questions,
         'chart_data': chart_data,
-        'comments': comments,  
+        'comments': comments,
         'selected_service': selected_service,
         'selected_role': selected_role,
-        'selected_question': selected_question,
+        'selected_question': int(selected_question_id) if selected_question_id else None,
         'selected_chart': selected_chart or 'bar',
     })
 
