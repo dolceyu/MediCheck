@@ -1,0 +1,5754 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-04-30T10:56:49.344Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Баран Андрій",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-30T10:56:49.344Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Поленко Аліна",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-30T10:56:49.344Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Миколайчук Петро ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-30T10:57:02.153Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-30T13:49:22.097Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Helsi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-30T13:49:37.147Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Health24",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-30T13:49:49.000Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Medics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-30T13:50:01.692Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Doc.ua",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-30T13:51:38.599Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "SurveyComment object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-30T13:55:24.754Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Наскільки легко було знайти потрібний сервіс або функцію на сайті?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-30T13:59:06.806Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Чи зручно вам було користуватись сервісом з мобільного пристрою?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-30T13:59:22.526Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Наскільки швидко завантажуються сторінки сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-30T13:59:35.323Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Наскільки зрозумілим є інтерфейс сайту?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-30T13:59:47.091Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Наскільки легко знайти контактну інформацію або допомогу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-04-30T13:59:57.925Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Наскільки задоволені ви процесом запису на прийом?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-04-30T14:00:10.854Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Наскільки ви довіряєте сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Наскільки ви довіряєте сервісу?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Наскільки задоволені ви процесом запису на прийом?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Наскільки легко знайти контактну інформацію або допомогу?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Наскільки зрозумілим є інтерфейс сайту?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Наскільки швидко завантажуються сторінки сервісу?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Чи зручно вам було користуватись сервісом з мобільного пристрою?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-30T19:29:05.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Наскільки легко було знайти потрібний сервіс або функцію на сайті?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-30T19:30:07.231Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Наскільки легко було знайти потрібну інформацію або функцію на сайті?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-30T19:30:25.359Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Наскільки зрозумілим був інтерфейс сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-30T19:37:43.439Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Наскільки швидко ви знайшли контактну інформацію або підтримку?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-30T19:38:00.844Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Чи вдалося вам одразу зорієнтуватись на головній сторінці?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-30T19:38:29.022Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Чи зручно було користуватись сервісом зі смартфона або планшета?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-30T19:38:47.534Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Чи були проблеми з відображенням сторінок на мобільному пристрої?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-30T19:39:08.851Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Наскільки швидко завантажувалися сторінки сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-30T19:39:41.763Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Чи виникали збої або помилки під час користування?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-30T19:52:44.725Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Наскільки зручно було знайти лікаря або медичний заклад?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-04-30T19:53:07.150Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Наскільки простим був процес запису на прийом?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-30T19:54:33.893Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Наскільки повною була інформація про лікарів/клініки?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-30T19:55:10.254Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Чи мали ви змогу змінити або скасувати запис?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-30T19:55:29.008Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Чи були доступні потрібні вам медичні послуги через сервіс?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-30T19:56:07.088Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Наскільки ефективною була служба підтримки?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-30T19:56:23.879Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Наскільки безпечно ви почували себе під час введення персональних даних?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-04-30T19:56:40.360Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Наскільки ви довіряєте сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-04-30T19:56:55.349Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "24",
+    "object_repr": "Наскільки ви задоволені загальним досвідом використання?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-04-30T19:57:25.369Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "25",
+    "object_repr": "Наскільки б рекомендували б ви цей сервіс іншим?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-05-04T12:16:54.186Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Наскільки зрчуно вам були доступні потрібні медичні послуги через сервіс?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-05-04T12:17:03.896Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Наскільки зручно вам були доступні потрібні медичні послуги через сервіс?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-05-04T12:17:26.172Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Наскільки зручно вам було змінити або скасувати запис?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-05-04T12:17:43.145Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Наскільки часто виникали збої або помилки під час користування?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-05-04T12:18:12.107Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-05-04T12:18:21.679Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Наскільки зручно було користуватись сервісом зі смартфона або планшета?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-05-04T12:18:40.375Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Наскільки зручно вам було одразу зорієнтуватись на головній сторінці?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-05-04T12:23:15.756Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Наскільки зручно було знаходити інформацію про пацієнтів на сервісі?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-05-04T12:23:34.466Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": "Наскільки зрозумілою є структура інтерфейсу для лікаря?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-05-04T12:23:56.502Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "Наскільки швидко ви знаходили потрібні функції (наприклад, створення запису)?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-05-04T12:24:16.321Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": "Наскільки легко знаходити історію відвідувань пацієнтів?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-05-04T12:24:35.627Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "30",
+    "object_repr": "Наскільки зрозумілою є система повідомлень сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-05-04T12:25:06.720Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "31",
+    "object_repr": "Наскільки просто створювати новий запис пацієнта?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-05-04T12:25:24.009Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "32",
+    "object_repr": "Наскільки легко редагувати або скасовувати записи?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-05-04T12:25:51.198Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "33",
+    "object_repr": "Наскільки зручно переглядати медичні результати через сервіс?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-05-04T12:26:12.255Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "34",
+    "object_repr": "Наскільки зручно додавати нотатки під час консультації?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-05-04T12:26:32.222Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "35",
+    "object_repr": "Наскільки швидко доступні дані про минулі консультації?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-05-04T12:26:49.429Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "36",
+    "object_repr": "Наскільки стабільно працює сервіс без збоїв?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-05-04T12:27:05.752Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "37",
+    "object_repr": "Наскільки швидко завантажуються сторінки сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-05-04T12:27:27.908Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "38",
+    "object_repr": "Наскільки часто ви стикалися з технічними помилками?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-05-04T12:27:44.297Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "39",
+    "object_repr": "Наскільки сервіс стабільно працює під час пікового навантаження?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-05-04T12:28:06.946Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "40",
+    "object_repr": "Наскільки швидко реагує технічна підтримка на запити?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-05-04T12:28:23.826Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "41",
+    "object_repr": "Наскільки корисною була документація або FAQ сервісу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-05-04T12:28:37.082Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "42",
+    "object_repr": "Наскільки сервіс полегшує вашу щоденну роботу?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-05-04T12:28:49.127Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "43",
+    "object_repr": "Наскільки ви задоволені сервісом загалом?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-05-04T13:19:13.122Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "43",
+    "object_repr": "Наскільки ви задоволені сервісом загалом?",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-05-11T19:30:58.648Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Мавдрик Стефанія",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-05-11T19:58:50.310Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-05-11T20:42:28.623Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-05-11T20:44:25.927Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-05-11T21:11:00.905Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Мавдрик Стефанія",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-05-11T21:11:00.905Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-05-11T21:13:57.795Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Стефунька Юліана",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-05-13T20:04:26.298Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "00000001",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-05-13T20:04:32.383Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "00000002",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-05-13T20:04:41.664Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "00000003",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-05-13T20:05:03.357Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "120909",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-05-16T15:16:38.918Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Стефунька Діана",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Middle name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-05-24T14:50:08.948Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "1234567",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-05-24T15:21:45.384Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "petrenko_01PI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-05-24T15:22:26.935Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "muzyka_02MA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-05-24T15:34:09.812Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "01020304KS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-05-24T16:38:31.174Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "SurveyComment object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add doctor",
+    "content_type": 7,
+    "codename": "add_doctor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change doctor",
+    "content_type": 7,
+    "codename": "change_doctor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete doctor",
+    "content_type": 7,
+    "codename": "delete_doctor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view doctor",
+    "content_type": 7,
+    "codename": "view_doctor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add patient",
+    "content_type": 8,
+    "codename": "add_patient"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change patient",
+    "content_type": 8,
+    "codename": "change_patient"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete patient",
+    "content_type": 8,
+    "codename": "delete_patient"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view patient",
+    "content_type": 8,
+    "codename": "view_patient"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add survey question",
+    "content_type": 9,
+    "codename": "add_surveyquestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change survey question",
+    "content_type": 9,
+    "codename": "change_surveyquestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete survey question",
+    "content_type": 9,
+    "codename": "delete_surveyquestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view survey question",
+    "content_type": 9,
+    "codename": "view_surveyquestion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add survey comment",
+    "content_type": 10,
+    "codename": "add_surveycomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change survey comment",
+    "content_type": 10,
+    "codename": "change_surveycomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete survey comment",
+    "content_type": 10,
+    "codename": "delete_surveycomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view survey comment",
+    "content_type": 10,
+    "codename": "view_surveycomment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add medical service",
+    "content_type": 11,
+    "codename": "add_medicalservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change medical service",
+    "content_type": 11,
+    "codename": "change_medicalservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete medical service",
+    "content_type": 11,
+    "codename": "delete_medicalservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view medical service",
+    "content_type": 11,
+    "codename": "view_medicalservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add survey answer",
+    "content_type": 12,
+    "codename": "add_surveyanswer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change survey answer",
+    "content_type": 12,
+    "codename": "change_surveyanswer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete survey answer",
+    "content_type": 12,
+    "codename": "delete_surveyanswer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view survey answer",
+    "content_type": 12,
+    "codename": "view_surveyanswer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add valid license",
+    "content_type": 13,
+    "codename": "add_validlicense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change valid license",
+    "content_type": 13,
+    "codename": "change_validlicense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete valid license",
+    "content_type": 13,
+    "codename": "delete_validlicense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view valid license",
+    "content_type": 13,
+    "codename": "view_validlicense"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$KPNihNeWBvZW7wdhEPvCeG$bSWwYfn75B2QqiDdzvwgjT/BAIYFCBLOZQhsLNixaDQ=",
+    "last_login": "2025-05-24T17:06:04.005Z",
+    "is_superuser": true,
+    "username": "admin2",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin2@medicheck.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-02T23:15:30.171Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "!Tp4wrjZvEfYp4lmjzBKs5FeIULHQTHvzfY3JcBEu",
+    "last_login": "2025-05-11T19:22:40.450Z",
+    "is_superuser": false,
+    "username": "st.mvd@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "st.mvd@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-03T14:22:55.224Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$eN2fN2rzlCbpI2TvrG3g5e$7IIsXiMVDgyOTMxk61n46mITkwsCWZFso9LswASWQgE=",
+    "last_login": "2025-05-24T16:39:51.223Z",
+    "is_superuser": false,
+    "username": "omelolena@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "omelolena@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-30T10:56:21.604Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$3ghb6AboH6HswQqbycfGNm$xowii5q2NVXZY5KMlEwatVKzlA9aze71cL28cwxqCJQ=",
+    "last_login": "2025-05-11T20:22:17.925Z",
+    "is_superuser": false,
+    "username": "yvlivnv@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "yvlivnv@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T19:17:32.617Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$WtrLblavvPqens1HFBjX9F$OckKE35FLQxiSm3Y3zKZmUSLsa1n/nFj0j3liaTcTpc=",
+    "last_login": "2025-05-11T21:10:31.806Z",
+    "is_superuser": false,
+    "username": "petrykmuk@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "petrykmuk@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T21:08:09.923Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$OO9li1AOvWPWfziOfFLECf$9PMaXjr937he7slSElqz+WwS0c3JN5rOBunNc9/lwic=",
+    "last_login": "2025-05-11T21:13:30.609Z",
+    "is_superuser": false,
+    "username": "olenka@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "olenka@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T21:13:19.231Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Wa6RdoYIicgdK4j0HHR5yZ$L9WPXJq1zIlBqlzuuUcD8kYUORpyTjwmQmd2pqrQAB8=",
+    "last_login": "2025-05-12T15:57:30.414Z",
+    "is_superuser": false,
+    "username": "yulianka@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "yulianka@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T21:14:36.084Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$fMBj0II2yUEubwkpL9xemU$PNH+oAIt1agygo3Iz4JA/08JZbZbiUG2DFgdydU+AK0=",
+    "last_login": "2025-05-13T20:10:30.019Z",
+    "is_superuser": false,
+    "username": "stefunka@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "stefunka@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-13T20:10:14.338Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$aTJmvvfWKSGlsQoTxpbIII$4GWHCwjQaBnmBIw1yHh4QXVigfHWIHQvFx2dIE4XsAo=",
+    "last_login": "2025-05-24T16:43:00.065Z",
+    "is_superuser": false,
+    "username": "allapela@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "allapela@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-13T20:30:40.610Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$LOmpfIFtTCPo0cle1yUBJH$+t6dCEBx/EndjWN2e7M0+xpmljjV+RUGxyHsYXZXcGw=",
+    "last_login": "2025-05-16T09:14:55.695Z",
+    "is_superuser": false,
+    "username": "birban@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "birban@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-14T11:43:05.861Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$WtJabhCELCjRxZKKpEhsxG$I9nyAsNJA+QzlD197zzTs2X8RXYPNTORtit+W3weqtQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "igorm@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "igorm@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-14T12:02:12.989Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$MrbkqYBTUWyJGrCBTDUojn$SqanhwZdU9rbmp8XukpY0GIkyrC8k8JXta60I/JfN/w=",
+    "last_login": "2025-05-15T10:30:09.680Z",
+    "is_superuser": false,
+    "username": "staromudpavlo@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "staromudpavlo@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-14T12:11:06.568Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$buHyXY3sOrV5efMneArRaP$y/PtXkd63/hBcHZOBsMEi1iJPwBnqxSsVaqX0QDfVxE=",
+    "last_login": "2025-05-15T10:56:07.033Z",
+    "is_superuser": false,
+    "username": "shevchenko@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "shevchenko@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-15T10:35:47.987Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Vhkq6wnE77Lp2o4T23Mxio$3z4+wiyr+E0Z2BBAHZtUyzVIyxh+Kb/jPRniYBGkF1Q=",
+    "last_login": "2025-05-15T17:25:40.595Z",
+    "is_superuser": false,
+    "username": "dianka@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "dianka@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-15T17:25:24.267Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$X6oBul3xV4kSG1IzZaV8Kz$nwKmXmn05MvunRl7Zsorw7yK3ksFRGjerw/3fTzkPvM=",
+    "last_login": "2025-05-24T15:12:21.062Z",
+    "is_superuser": false,
+    "username": "beyvira@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "beyvira@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-24T15:12:05.886Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$G0IRVJZ8RjFW61JF5Z23z5$EdpS0HWyWUKo5utb2b+Gqtfom1X9efKuNgR0kLiGUiM=",
+    "last_login": "2025-05-24T15:25:17.992Z",
+    "is_superuser": false,
+    "username": "petrenko_ivan@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "petrenko_ivan@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-24T15:25:06.347Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$thge7WLx09oYxIVfpaT71j$QYDG8JuHHIDvgofihdLzIAowtBGAQYnfH+2TAFQyfz0=",
+    "last_login": "2025-05-24T15:55:30.569Z",
+    "is_superuser": false,
+    "username": "kushnirsofia@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "kushnirsofia@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-24T15:44:21.247Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$RUQrS4AYWbxfUqJkmlDxSA$aJweVEvs2yOE3I2R8bgymGdAzVgg6gIeQSspX+hP6eU=",
+    "last_login": "2025-05-24T16:08:34.404Z",
+    "is_superuser": false,
+    "username": "maleniukandriy@gmail.com",
+    "first_name": "",
+    "last_name": "",
+    "email": "maleniukandriy@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-24T16:07:33.885Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "app",
+    "model": "doctor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "app",
+    "model": "patient"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "app",
+    "model": "surveyquestion"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "app",
+    "model": "surveycomment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "app",
+    "model": "medicalservice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "app",
+    "model": "surveyanswer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "app",
+    "model": "validlicense"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zf6ad7atj068s9kz5skxgvepb0oaynub",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyGuy6N49N5vILALUjWQlPZk_HdD0oNeZybzFj7sW_F7T6tfWFwFiNMvi4GeqQ7Bj1DvTVKr27pEORJ52C7nxul1O9q_QQm9jC1conEEHDJOhOfMETSBtYwaHaqUMlkCF_VklFZgI4IyyilnMyE78fkC2rM3UA:1uIsLZ:1CqO-dU9k3gUpeondFtkygnHzdAkLIwizV4oT_oMAvQ",
+    "expire_date": "2025-06-07T17:07:45.518Z"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 4,
+  "fields": {
+    "first_name": "Олена",
+    "last_name": "Омелян",
+    "middle_name": "Петрівна",
+    "gender": "female",
+    "dob": "1984-02-07",
+    "email": "omelolena@gmail.com",
+    "license_number": "120909",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 5,
+  "fields": {
+    "first_name": "Галина ",
+    "last_name": "Стефунька",
+    "middle_name": "Володимирівна",
+    "gender": "female",
+    "dob": "1979-10-20",
+    "email": "stefunka@gmail.com",
+    "license_number": "00000004",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 6,
+  "fields": {
+    "first_name": "Алла",
+    "last_name": "Пеля",
+    "middle_name": "Миколаївна",
+    "gender": "female",
+    "dob": "1996-02-29",
+    "email": "allapela@gmail.com",
+    "license_number": "00000001",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 7,
+  "fields": {
+    "first_name": "Павло",
+    "last_name": "Старомуд",
+    "middle_name": "Іванович",
+    "gender": "male",
+    "dob": "1995-02-08",
+    "email": "staromudpavlo@gmail.com",
+    "license_number": "00000002",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 8,
+  "fields": {
+    "first_name": "Юлія",
+    "last_name": "Шевченко",
+    "middle_name": "Миколаївна",
+    "gender": "female",
+    "dob": "2025-05-08",
+    "email": "shevchenko@gmail.com",
+    "license_number": "00000003",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 9,
+  "fields": {
+    "first_name": "Віра",
+    "last_name": "Бей",
+    "middle_name": "Романівна",
+    "gender": "female",
+    "dob": "1982-06-16",
+    "email": "beyvira@gmail.com",
+    "license_number": "1234567",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 10,
+  "fields": {
+    "first_name": "Іван",
+    "last_name": "Петренко",
+    "middle_name": "Петрович",
+    "gender": "male",
+    "dob": "2025-05-16",
+    "email": "petrenko_ivan@gmail.com",
+    "license_number": "petrenko_01PI",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.doctor",
+  "pk": 11,
+  "fields": {
+    "first_name": "Софія",
+    "last_name": "Кушнір",
+    "middle_name": "Ярославівна",
+    "gender": "female",
+    "dob": "1978-10-11",
+    "email": "kushnirsofia@gmail.com",
+    "license_number": "01020304KS",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 7,
+  "fields": {
+    "last_name": "Миколайчук",
+    "first_name": "Петро ",
+    "middle_name": "Михайлович",
+    "gender": "male",
+    "dob": "1985-06-12",
+    "email": "petrykmuk@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 9,
+  "fields": {
+    "last_name": "Олейник",
+    "first_name": "Марія",
+    "middle_name": "Григорівна",
+    "gender": "female",
+    "dob": "2025-05-20",
+    "email": "olenka@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 10,
+  "fields": {
+    "last_name": "Стефунька",
+    "first_name": "Юліана",
+    "middle_name": "Ігорівна",
+    "gender": "female",
+    "dob": "2025-05-07",
+    "email": "yulianka@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 11,
+  "fields": {
+    "last_name": "Бірбан",
+    "first_name": "Олександр",
+    "middle_name": "Михайлович",
+    "gender": "male",
+    "dob": "2005-10-12",
+    "email": "birban@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 12,
+  "fields": {
+    "last_name": "Мартиняк",
+    "first_name": "Ігор",
+    "middle_name": "Степанович",
+    "gender": "male",
+    "dob": "1976-07-08",
+    "email": "igorm@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 13,
+  "fields": {
+    "last_name": "Стефунька",
+    "first_name": "Діана",
+    "middle_name": "Ігорівна",
+    "gender": "female",
+    "dob": "2017-12-29",
+    "email": "dianka@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.patient",
+  "pk": 14,
+  "fields": {
+    "last_name": "Маленюк",
+    "first_name": "Андрій",
+    "middle_name": "Романович",
+    "gender": "male",
+    "dob": "1990-05-24",
+    "email": "maleniukandriy@gmail.com",
+    "password": "12345678"
+  }
+},
+{
+  "model": "app.medicalservice",
+  "pk": 1,
+  "fields": {
+    "name": "Helsi",
+    "slug": "helsi"
+  }
+},
+{
+  "model": "app.medicalservice",
+  "pk": 2,
+  "fields": {
+    "name": "Health24",
+    "slug": "health24"
+  }
+},
+{
+  "model": "app.medicalservice",
+  "pk": 3,
+  "fields": {
+    "name": "Medics",
+    "slug": "medics"
+  }
+},
+{
+  "model": "app.medicalservice",
+  "pk": 4,
+  "fields": {
+    "name": "Doc.ua",
+    "slug": "docua"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 8,
+  "fields": {
+    "text": "Наскільки легко було знайти потрібну інформацію або функцію на сайті?",
+    "for_role": "patient",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 9,
+  "fields": {
+    "text": "Наскільки зрозумілим був інтерфейс сервісу?",
+    "for_role": "patient",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 10,
+  "fields": {
+    "text": "Наскільки швидко ви знайшли контактну інформацію або підтримку?",
+    "for_role": "patient",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 11,
+  "fields": {
+    "text": "Наскільки зручно вам було одразу зорієнтуватись на головній сторінці?",
+    "for_role": "patient",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 12,
+  "fields": {
+    "text": "Наскільки зручно було користуватись сервісом зі смартфона або планшета?",
+    "for_role": "patient",
+    "category": "mobile"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 13,
+  "fields": {
+    "text": "Наскільки часто виникали проблеми з відображенням сторінок на мобільному пристрої?",
+    "for_role": "patient",
+    "category": "mobile"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 14,
+  "fields": {
+    "text": "Наскільки швидко завантажувалися сторінки сервісу?",
+    "for_role": "patient",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 15,
+  "fields": {
+    "text": "Наскільки часто виникали збої або помилки під час користування?",
+    "for_role": "patient",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 16,
+  "fields": {
+    "text": "Наскільки зручно було знайти лікаря або медичний заклад?",
+    "for_role": "patient",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 17,
+  "fields": {
+    "text": "Наскільки простим був процес запису на прийом?",
+    "for_role": "patient",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 18,
+  "fields": {
+    "text": "Наскільки повною була інформація про лікарів/клініки?",
+    "for_role": "patient",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 19,
+  "fields": {
+    "text": "Наскільки зручно вам було змінити або скасувати запис?",
+    "for_role": "patient",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 20,
+  "fields": {
+    "text": "Наскільки зручно вам були доступні потрібні медичні послуги через сервіс?",
+    "for_role": "patient",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 21,
+  "fields": {
+    "text": "Наскільки ефективною була служба підтримки?",
+    "for_role": "patient",
+    "category": "trust"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 22,
+  "fields": {
+    "text": "Наскільки безпечно ви почували себе під час введення персональних даних?",
+    "for_role": "patient",
+    "category": "trust"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 23,
+  "fields": {
+    "text": "Наскільки ви довіряєте сервісу?",
+    "for_role": "patient",
+    "category": "trust"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 24,
+  "fields": {
+    "text": "Наскільки ви задоволені загальним досвідом використання?",
+    "for_role": "patient",
+    "category": "general"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 25,
+  "fields": {
+    "text": "Наскільки б рекомендували б ви цей сервіс іншим?",
+    "for_role": "patient",
+    "category": "general"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 26,
+  "fields": {
+    "text": "Наскільки зручно було знаходити інформацію про пацієнтів на сервісі?",
+    "for_role": "doctor",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 27,
+  "fields": {
+    "text": "Наскільки зрозумілою є структура інтерфейсу для лікаря?",
+    "for_role": "doctor",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 28,
+  "fields": {
+    "text": "Наскільки швидко ви знаходили потрібні функції (наприклад, створення запису)?",
+    "for_role": "doctor",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 29,
+  "fields": {
+    "text": "Наскільки легко знаходити історію відвідувань пацієнтів?",
+    "for_role": "doctor",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 30,
+  "fields": {
+    "text": "Наскільки зрозумілою є система повідомлень сервісу?",
+    "for_role": "doctor",
+    "category": "interface"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 31,
+  "fields": {
+    "text": "Наскільки просто створювати новий запис пацієнта?",
+    "for_role": "doctor",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 32,
+  "fields": {
+    "text": "Наскільки легко редагувати або скасовувати записи?",
+    "for_role": "doctor",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 33,
+  "fields": {
+    "text": "Наскільки зручно переглядати медичні результати через сервіс?",
+    "for_role": "doctor",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 34,
+  "fields": {
+    "text": "Наскільки зручно додавати нотатки під час консультації?",
+    "for_role": "doctor",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 35,
+  "fields": {
+    "text": "Наскільки швидко доступні дані про минулі консультації?",
+    "for_role": "doctor",
+    "category": "booking"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 36,
+  "fields": {
+    "text": "Наскільки стабільно працює сервіс без збоїв?",
+    "for_role": "doctor",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 37,
+  "fields": {
+    "text": "Наскільки швидко завантажуються сторінки сервісу?",
+    "for_role": "doctor",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 38,
+  "fields": {
+    "text": "Наскільки часто ви стикалися з технічними помилками?",
+    "for_role": "doctor",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 39,
+  "fields": {
+    "text": "Наскільки сервіс стабільно працює під час пікового навантаження?",
+    "for_role": "doctor",
+    "category": "speed"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 40,
+  "fields": {
+    "text": "Наскільки швидко реагує технічна підтримка на запити?",
+    "for_role": "doctor",
+    "category": "trust"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 41,
+  "fields": {
+    "text": "Наскільки корисною була документація або FAQ сервісу?",
+    "for_role": "doctor",
+    "category": "trust"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 42,
+  "fields": {
+    "text": "Наскільки сервіс полегшує вашу щоденну роботу?",
+    "for_role": "doctor",
+    "category": "general"
+  }
+},
+{
+  "model": "app.surveyquestion",
+  "pk": 43,
+  "fields": {
+    "text": "Наскільки ви задоволені сервісом загалом?",
+    "for_role": "doctor",
+    "category": "general"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 8,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.534Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 9,
+    "rating": 3,
+    "submitted_at": "2025-05-04T12:01:22.541Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 10,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.544Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 11,
+    "rating": 3,
+    "submitted_at": "2025-05-04T12:01:22.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 12,
+    "rating": 3,
+    "submitted_at": "2025-05-04T12:01:22.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 6,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 13,
+    "rating": 2,
+    "submitted_at": "2025-05-04T12:01:22.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 7,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 14,
+    "rating": 3,
+    "submitted_at": "2025-05-04T12:01:22.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 15,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 9,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 16,
+    "rating": 5,
+    "submitted_at": "2025-05-04T12:01:22.562Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 10,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 17,
+    "rating": 5,
+    "submitted_at": "2025-05-04T12:01:22.564Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 11,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 18,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.564Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 19,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.564Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 13,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 20,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.564Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 14,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 21,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.578Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 15,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 22,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.579Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 16,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 23,
+    "rating": 2,
+    "submitted_at": "2025-05-04T12:01:22.579Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 17,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.579Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 18,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 25,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:01:22.579Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 19,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 8,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.528Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 20,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 9,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.532Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 21,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 10,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.536Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 22,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 11,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.539Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 23,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 12,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.542Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 24,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 13,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.546Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 14,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.548Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 26,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 15,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.552Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 27,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 16,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.555Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 28,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 17,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.559Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 29,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 18,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.562Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 30,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 19,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.566Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 31,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 20,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.568Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 32,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 21,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.571Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 33,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 22,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.575Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 34,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 23,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.578Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 35,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.581Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 36,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 25,
+    "rating": 4,
+    "submitted_at": "2025-05-04T12:04:44.584Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 37,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 26,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.318Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 38,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 27,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.324Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 39,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 28,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.327Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 40,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 29,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.332Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 41,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 30,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.335Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 42,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 31,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.338Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 43,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 32,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.343Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 44,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 33,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.346Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 45,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 34,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.350Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 46,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 35,
+    "rating": 2,
+    "submitted_at": "2025-05-04T16:37:09.354Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 47,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.357Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 48,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 37,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.361Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 49,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 38,
+    "rating": 3,
+    "submitted_at": "2025-05-04T16:37:09.366Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 50,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 39,
+    "rating": 3,
+    "submitted_at": "2025-05-04T16:37:09.369Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 51,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.373Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 52,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 41,
+    "rating": 5,
+    "submitted_at": "2025-05-04T16:37:09.377Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 53,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.380Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 54,
+  "fields": {
+    "user": 3,
+    "service": 1,
+    "question": 43,
+    "rating": 4,
+    "submitted_at": "2025-05-04T16:37:09.384Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 55,
+  "fields": {
+    "user": 2,
+    "service": 1,
+    "question": 8,
+    "rating": 4,
+    "submitted_at": "2025-05-08T16:30:15.817Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 56,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 8,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.675Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 57,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 9,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.682Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 58,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 10,
+    "rating": 2,
+    "submitted_at": "2025-05-14T14:05:21.687Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 59,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 11,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.690Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 60,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 12,
+    "rating": 2,
+    "submitted_at": "2025-05-14T14:05:21.695Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 61,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 13,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.701Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 62,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 14,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.706Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 63,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 15,
+    "rating": 2,
+    "submitted_at": "2025-05-14T14:05:21.710Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 64,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 16,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.711Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 65,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 17,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.716Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 66,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 18,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.722Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 67,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 19,
+    "rating": 5,
+    "submitted_at": "2025-05-14T14:05:21.726Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 68,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 20,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.729Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 69,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 21,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.734Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 70,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 22,
+    "rating": 2,
+    "submitted_at": "2025-05-14T14:05:21.738Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 71,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 23,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.739Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 72,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-14T14:05:21.745Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 73,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 25,
+    "rating": 3,
+    "submitted_at": "2025-05-14T14:05:21.748Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 74,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 8,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:06:47.171Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 75,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 9,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:06:47.175Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 76,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "question": 10,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:06:47.180Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 77,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 8,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.213Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 78,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 9,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.218Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 79,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 10,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.222Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 80,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 11,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.226Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 81,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 12,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.230Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 82,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 13,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.235Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 83,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 14,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.239Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 84,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 15,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:11:35.243Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 85,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 16,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.248Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 86,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 17,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.251Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 87,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 18,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:11:35.257Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 88,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 19,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.260Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 89,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 20,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.265Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 90,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 21,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.269Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 91,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 22,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.274Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 92,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 23,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.277Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 93,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:11:35.280Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 94,
+  "fields": {
+    "user": 10,
+    "service": 2,
+    "question": 25,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:11:35.284Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 95,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 26,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.958Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 96,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 27,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:17:28.963Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 97,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 28,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:17:28.968Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 98,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 29,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:17:28.970Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 99,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 30,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.976Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 100,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 31,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:17:28.980Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 101,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 32,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.984Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 102,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 33,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.987Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 103,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 34,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:17:28.993Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 104,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 35,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.996Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 105,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:28.999Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 106,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 37,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:17:29.004Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 107,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 38,
+    "rating": 3,
+    "submitted_at": "2025-05-14T15:17:29.007Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 108,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 39,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:29.012Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 109,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:29.016Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 110,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 41,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:29.021Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 111,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-14T15:17:29.024Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 112,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "question": 43,
+    "rating": 5,
+    "submitted_at": "2025-05-14T15:17:29.029Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 113,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 8,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.436Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 114,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 9,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:21:32.441Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 115,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 10,
+    "rating": 5,
+    "submitted_at": "2025-05-14T17:21:32.444Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 116,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 11,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:21:32.447Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 117,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 12,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.450Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 118,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 13,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:21:32.452Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 119,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 14,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:21:32.456Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 120,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 15,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.458Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 121,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 16,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.462Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 122,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 17,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:21:32.465Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 123,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 18,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.467Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 124,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 19,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:21:32.470Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 125,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 20,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.473Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 126,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 21,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:21:32.476Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 127,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 22,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.479Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 128,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 23,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:21:32.482Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 129,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:21:32.485Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 130,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 25,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:21:32.488Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 131,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 26,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.173Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 132,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 27,
+    "rating": 5,
+    "submitted_at": "2025-05-14T17:28:08.177Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 133,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 28,
+    "rating": 1,
+    "submitted_at": "2025-05-14T17:28:08.180Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 134,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 29,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:28:08.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 135,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 30,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 136,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 31,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 137,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 32,
+    "rating": 5,
+    "submitted_at": "2025-05-14T17:28:08.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 138,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 33,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 139,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 34,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.198Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 140,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 35,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:28:08.199Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 141,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.199Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 142,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 37,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.199Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 143,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 38,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:28:08.199Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 144,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 39,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.212Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 145,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.216Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 146,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 41,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.218Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 147,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:28:08.218Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 148,
+  "fields": {
+    "user": 12,
+    "service": 2,
+    "question": 43,
+    "rating": 3,
+    "submitted_at": "2025-05-14T17:28:08.218Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 149,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 8,
+    "rating": 2,
+    "submitted_at": "2025-05-14T17:33:50.199Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 150,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 9,
+    "rating": 4,
+    "submitted_at": "2025-05-14T17:33:50.204Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 151,
+  "fields": {
+    "user": 10,
+    "service": 3,
+    "question": 10,
+    "rating": 5,
+    "submitted_at": "2025-05-14T17:33:50.208Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 152,
+  "fields": {
+    "user": 14,
+    "service": 3,
+    "question": 8,
+    "rating": 3,
+    "submitted_at": "2025-05-15T17:26:12.827Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 153,
+  "fields": {
+    "user": 14,
+    "service": 3,
+    "question": 9,
+    "rating": 5,
+    "submitted_at": "2025-05-15T17:26:12.852Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 154,
+  "fields": {
+    "user": 14,
+    "service": 3,
+    "question": 10,
+    "rating": 4,
+    "submitted_at": "2025-05-15T17:26:12.862Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 155,
+  "fields": {
+    "user": 14,
+    "service": 3,
+    "question": 11,
+    "rating": 3,
+    "submitted_at": "2025-05-15T17:26:12.867Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 156,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 26,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:13:13.197Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 157,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 27,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.203Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 158,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 28,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:13:13.210Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 159,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 29,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.215Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 160,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 30,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:13:13.221Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 161,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 31,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.225Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 162,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 32,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.231Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 163,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 33,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:13:13.236Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 164,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 34,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:13:13.241Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 165,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 35,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.247Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 166,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.256Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 167,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 37,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:13:13.260Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 168,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 38,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.267Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 169,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 39,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:13:13.271Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 170,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.277Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 171,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 41,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:13:13.280Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 172,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 42,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:13:13.286Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 173,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "question": 43,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:13:13.289Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 174,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 26,
+    "rating": 1,
+    "submitted_at": "2025-05-24T15:15:22.704Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 175,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 27,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:15:22.710Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 176,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 28,
+    "rating": 1,
+    "submitted_at": "2025-05-24T15:15:22.716Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 177,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 29,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.720Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 178,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 30,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.724Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 179,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 31,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.729Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 180,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 32,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:15:22.731Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 181,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 33,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.736Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 182,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 34,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.740Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 183,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 35,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:15:22.743Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 184,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.747Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 185,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 37,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.751Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 186,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 38,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:15:22.754Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 187,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 39,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:15:22.757Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 188,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.762Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 189,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 41,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:15:22.765Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 190,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:15:22.770Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 191,
+  "fields": {
+    "user": 15,
+    "service": 2,
+    "question": 43,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:15:22.774Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 192,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 26,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.793Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 193,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 27,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.798Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 194,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 28,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.801Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 195,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 29,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.805Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 196,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 30,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.809Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 197,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 31,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.812Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 198,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 32,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.814Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 199,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 33,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.818Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 200,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 34,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.821Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 201,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 35,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.825Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 202,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 36,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.828Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 203,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 37,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.831Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 204,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 38,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.834Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 205,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 39,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.837Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 206,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 40,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.840Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 207,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 41,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.844Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 208,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 42,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.847Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 209,
+  "fields": {
+    "user": 16,
+    "service": 1,
+    "question": 43,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:25:45.849Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 210,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 26,
+    "rating": 5,
+    "submitted_at": "2025-05-24T15:54:24.152Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 211,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 27,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.159Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 212,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 28,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.162Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 213,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 29,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.165Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 214,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 30,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.170Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 215,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 31,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.174Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 216,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 32,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.179Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 217,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 33,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.183Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 218,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 34,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.189Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 219,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 35,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.193Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 220,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 36,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.197Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 221,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 37,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.201Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 222,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 38,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.206Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 223,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 39,
+    "rating": 2,
+    "submitted_at": "2025-05-24T15:54:24.211Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 224,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.215Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 225,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 41,
+    "rating": 3,
+    "submitted_at": "2025-05-24T15:54:24.221Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 226,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.225Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 227,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "question": 43,
+    "rating": 4,
+    "submitted_at": "2025-05-24T15:54:24.230Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 228,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 8,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.474Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 229,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 9,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.480Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 230,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 10,
+    "rating": 5,
+    "submitted_at": "2025-05-24T16:10:44.485Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 231,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 11,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.488Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 232,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 12,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.492Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 233,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 13,
+    "rating": 2,
+    "submitted_at": "2025-05-24T16:10:44.496Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 234,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 14,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.500Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 235,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 15,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.505Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 236,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 16,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.508Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 237,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 17,
+    "rating": 5,
+    "submitted_at": "2025-05-24T16:10:44.512Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 238,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 18,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.517Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 239,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 19,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.522Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 240,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 20,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.525Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 241,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 21,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.529Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 242,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 22,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:10:44.534Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 243,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 23,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.537Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 244,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 24,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.542Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 245,
+  "fields": {
+    "user": 18,
+    "service": 2,
+    "question": 25,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:10:44.545Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 246,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 26,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.838Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 247,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 27,
+    "rating": 5,
+    "submitted_at": "2025-05-24T16:40:58.842Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 248,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 28,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.846Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 249,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 29,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.850Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 250,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 30,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.855Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 251,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 31,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.860Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 252,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 32,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.863Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 253,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 33,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.866Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 254,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 34,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.872Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 255,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 35,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.876Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 256,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 36,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.880Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 257,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 37,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.884Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 258,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 38,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.890Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 259,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 39,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.894Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 260,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 40,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.899Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 261,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 41,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:40:58.903Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 262,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.906Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 263,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "question": 43,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:40:58.912Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 264,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 26,
+    "rating": 2,
+    "submitted_at": "2025-05-24T16:43:34.663Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 265,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 27,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:43:34.669Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 266,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 28,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.673Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 267,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 29,
+    "rating": 2,
+    "submitted_at": "2025-05-24T16:43:34.677Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 268,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 30,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.681Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 269,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 31,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.687Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 270,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 32,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:43:34.691Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 271,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 33,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.697Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 272,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 34,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:43:34.704Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 273,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 35,
+    "rating": 2,
+    "submitted_at": "2025-05-24T16:43:34.708Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 274,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 36,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.713Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 275,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 37,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.716Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 276,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 38,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.719Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 277,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 39,
+    "rating": 2,
+    "submitted_at": "2025-05-24T16:43:34.724Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 278,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 40,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.728Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 279,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 41,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:43:34.733Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 280,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 42,
+    "rating": 4,
+    "submitted_at": "2025-05-24T16:43:34.736Z"
+  }
+},
+{
+  "model": "app.surveyanswer",
+  "pk": 281,
+  "fields": {
+    "user": 9,
+    "service": 3,
+    "question": 43,
+    "rating": 3,
+    "submitted_at": "2025-05-24T16:43:34.740Z"
+  }
+},
+{
+  "model": "app.surveycomment",
+  "pk": 2,
+  "fields": {
+    "user": 10,
+    "service": 1,
+    "text": "Супер",
+    "submitted_at": "2025-05-14T14:05:21.751Z"
+  }
+},
+{
+  "model": "app.surveycomment",
+  "pk": 3,
+  "fields": {
+    "user": 12,
+    "service": 3,
+    "text": "Класно!",
+    "submitted_at": "2025-05-14T15:17:29.033Z"
+  }
+},
+{
+  "model": "app.surveycomment",
+  "pk": 5,
+  "fields": {
+    "user": 15,
+    "service": 1,
+    "text": "Все працює чудово!",
+    "submitted_at": "2025-05-24T15:13:13.295Z"
+  }
+},
+{
+  "model": "app.surveycomment",
+  "pk": 6,
+  "fields": {
+    "user": 17,
+    "service": 1,
+    "text": "Чудовий сервіс, але потрібно покращити роботу під час пікового навантаження!",
+    "submitted_at": "2025-05-24T15:54:24.234Z"
+  }
+},
+{
+  "model": "app.surveycomment",
+  "pk": 7,
+  "fields": {
+    "user": 3,
+    "service": 3,
+    "text": "Не завжди зрозуміло, де знайти потрібний розділ.",
+    "submitted_at": "2025-05-24T16:40:58.916Z"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 1,
+  "fields": {
+    "license_number": "00000001"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 2,
+  "fields": {
+    "license_number": "00000002"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 3,
+  "fields": {
+    "license_number": "00000003"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 4,
+  "fields": {
+    "license_number": "120909"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 5,
+  "fields": {
+    "license_number": "1234567"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 6,
+  "fields": {
+    "license_number": "petrenko_01PI"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 7,
+  "fields": {
+    "license_number": "muzyka_02MA"
+  }
+},
+{
+  "model": "app.validlicense",
+  "pk": 8,
+  "fields": {
+    "license_number": "01020304KS"
+  }
+}
+]

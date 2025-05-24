@@ -95,3 +95,6 @@
 2025-05-24 19:43:34,744 | INFO | app_logger | Лікар allapela@gmail.com надіслав анкету для сервісу: Medics
 2025-05-24 19:44:03,194 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
 2025-05-24 19:45:07,203 | INFO | app_logger | Адміністратор admin2@medicheck.com переглянув статистику для сервісу: Medics, питання ID: 26
+2025-05-24 20:27:21,956 | INFO | app_logger | Спроба входу: beyvira@gmail.com
+2025-05-24 20:27:23,249 | INFO | app_logger | Успішний вхід: beyvira@gmail.com
+2025-05-24 20:27:23,299 | INFO | app_logger | Лікар beyvira@gmail.com увійшов у систему
