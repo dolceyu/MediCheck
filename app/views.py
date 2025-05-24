@@ -18,7 +18,7 @@ from django.contrib import messages
 from django.contrib.auth.models import User
 from .models import Doctor
 
-from .models import ValidLicense  # 👈 Додай цей імпорт на початку
+from .models import ValidLicense  
 
 def register_doctor(request):
     if request.method == 'POST':
@@ -26,30 +26,25 @@ def register_doctor(request):
         password = request.POST.get('password')
         license_number = request.POST.get('license_number')
 
-        # 🔒 Перевірка: чи така ліцензія є в таблиці ValidLicense
         if not ValidLicense.objects.filter(license_number=license_number).exists():
             messages.error(request, "Номер ліцензії недійсний або не знайдено в базі.")
             return render(request, 'register_doctor.html')
 
-        # 🔁 Унікальність email
         if User.objects.filter(username=email).exists():
             messages.error(request, "Користувач з таким email вже існує.")
             return render(request, 'register_doctor.html')
 
-        # 🔁 Унікальність ліцензії серед уже зареєстрованих лікарів
         if Doctor.objects.filter(license_number=license_number).exists():
             messages.error(request, "Лікар з таким номером ліцензії вже існує.")
             return render(request, 'register_doctor.html')
 
-        # ✅ Створення User
         user = User.objects.create_user(
             username=email,
             email=email,
             password=password
         )
-        print("✅ User створено:", user.username)
+        print("User створено:", user.username)
 
-        # ✅ Створення Doctor
         Doctor.objects.create(
             last_name=request.POST.get('last_name'),
             first_name=request.POST.get('first_name'),
@@ -71,25 +66,21 @@ from .models import Patient
 
 from django.contrib.auth.models import User
 
-from django.contrib.auth.models import User
-
 def register_patient(request):
     if request.method == 'POST':
         email = request.POST['email']
         password = request.POST['password']
 
-        # Створюємо User тільки якщо ще не існує
         user, created = User.objects.get_or_create(username=email, defaults={
             'email': email
         })
         if created:
             user.set_password(password)
             user.save()
-            print("✅ User створено:", user.username)
+            print("User створено:", user.username)
         else:
-            print("⚠️ User вже існує")
+            print("User вже існує")
 
-        # Створюємо пацієнта тільки якщо ще не існує
         if not Patient.objects.filter(email=email).exists():
             Patient.objects.create(
                 last_name=request.POST.get('last_name'),
@@ -98,14 +89,14 @@ def register_patient(request):
                 gender=request.POST.get('gender'),
                 dob=request.POST.get('dob'),
                 email=email,
-                password=password  # ⚠️ або хешуй, або просто не зберігай повторно
+                password=password 
             )
-            print("✅ Пацієнта збережено")
+            print("Пацієнта збережено")
         else:
-            print("⚠️ Пацієнт вже існує")
+            print("Пацієнт вже існує")
 
         logger.info(f'Успішна реєстрація пацієнта: {email}')
-        return render(request, 'registration_success.html')  # 🔁 Після реєстрації краще йти на login
+        return render(request, 'registration_success.html')  
 
     return render(request, 'register_patient.html')
 
@@ -292,7 +283,7 @@ def admin_stats(request):
     if request.method == 'POST':
         selected_service = request.POST.get('service')
         selected_role = request.POST.get('role')
-        selected_question_id = request.POST.get('question')  # <-- id з select
+        selected_question_id = request.POST.get('question')  
         selected_chart = request.POST.get('chart_type')
 
         service = MedicalService.objects.filter(name=selected_service).first()
@@ -384,16 +375,14 @@ def change_password_view(request):
                 'role': role
             })
 
-        # 🔒 Змінюємо пароль
         user.set_password(new_password)
         user.save()
 
-        # 🔁 Виходимо, показуємо повідомлення та лог
         logout(request)
         messages.success(request, 'Пароль успішно змінено. Увійдіть знову.')
         logger.info(f'Користувач {user.email} змінив пароль і вийшов із системи')
 
-        return redirect('login')  # або твій URL name для входу
+        return redirect('login')  
 
     return render(request, 'change_password.html', {'role': role})
 
